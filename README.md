@@ -50,7 +50,7 @@ A modern, responsive web application that provides personalized financial advice
    The `.env.local` file is already configured with:
 
    ```env
-   NEXT_PUBLIC_GEMINI_API_KEY=AIzaSyCVrSy50CK5ggWQvRnLrvj_Rruh8LDzDBE
+   NEXT_PUBLIC_GEMINI_API_KEY=your_api_key_here
    NEXT_PUBLIC_APP_NAME=FinGuru
    NEXT_PUBLIC_APP_VERSION=1.0.0
    ```
