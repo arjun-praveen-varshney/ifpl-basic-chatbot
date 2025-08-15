@@ -14,8 +14,13 @@ import { Language } from "@/types";
 type AppScreen = "welcome" | "language" | "chat" | "profile";
 
 export default function FinGuruApp() {
-  const { profile, loading, updateLanguage, markOnboardingCompleted } =
-    useUserProfile();
+  const {
+    profile,
+    loading,
+    updateLanguage,
+    markOnboardingCompleted,
+    addFinancialTopic,
+  } = useUserProfile();
   const { conversations } = useChat();
   const [currentScreen, setCurrentScreen] = useState<AppScreen>("welcome");
 
